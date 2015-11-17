@@ -7,9 +7,9 @@
 			"sizes": "192x192"
 		}
 	],
-	"theme_color": "#3F51B5",
-	"background_color": "880000",
+	"theme_color": "#990000",
+	"background_color": "#DFCFAF",
 	"display": "fullscreen",
 	"orientation": "landscape",
-	"start_url": "/inbox-attack/"
+	"start_url": "/inbox-attack/?home=true"
 }
