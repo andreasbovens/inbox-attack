@@ -1,0 +1,15 @@
+{
+	"name": "Inbox Attack",
+	"short_name": "Inbox Attack",
+	"icons": [
+		{
+			"src": "icon.png",
+			"sizes": "192x192"
+		}
+	],
+	"theme_color": "#3F51B5",
+	"background_color": "880000",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"start_url": "/"
+}
