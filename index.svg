@@ -212,6 +212,7 @@
 		 * Actions for clicking direction buttons
 		 */
 		function doButtonPress(event, direction) {
+			navigator.vibrate(15);
 			if (direction === 'left') {
 				btn_left.setAttributeNS(null, 'fill', 'url(#btn_rubber_pressed)');
 				btn_left.setAttributeNS(null, 'aria-pressed', 'true');
@@ -222,6 +223,7 @@
 			user.move(direction);
 		}
 		function doButtonRelease(event, direction) {
+			navigator.vibrate(15);
 			if (direction === 'left') {
 				btn_left.setAttributeNS(null, 'fill', 'url(#btn_rubber)');
 				btn_left.setAttributeNS(null, 'aria-pressed', 'false');
