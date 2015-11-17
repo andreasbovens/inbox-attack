@@ -8,7 +8,7 @@
 		}
 	],
 	"theme_color": "#990000",
-	"background_color": "#DFCFAF",
+	"background_color": "#CCDEA8",
 	"display": "fullscreen",
 	"orientation": "landscape",
 	"start_url": "/inbox-attack/?home=true"
