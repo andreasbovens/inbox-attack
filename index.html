@@ -18,18 +18,15 @@
 		right:0;
 		bottom:0;
 		left:0;
-		}
+		width: 100vw;
+		height: calc(100vw * 9/16);
+	}
 	</style>
 	<link rel="manifest" href="/inbox-attack/manifest.json">
 </head>
 <body>
 	<object data="index.svg" type="image/svg+xml" class="inbox"></object>
 	<script>
-	(function(window) {
-		var inbox = document.querySelector('.inbox');
-		inbox.width = window.innerWidth;
-		inbox.height = window.innerHeight;
-	})(this);
 
 	if('serviceWorker' in navigator) {
 		navigator.serviceWorker.register('sw.js', { scope: '/inbox-attack/' })
