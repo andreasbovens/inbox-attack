@@ -23,8 +23,6 @@
 
 // Version 0.57
 
-importScripts('/inbox-attack/cache-polyfill.js');
-
 self.addEventListener('install', function(e) {
 	e.waitUntil(
 		caches.open('inboxattack').then(function(cache) {
