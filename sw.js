@@ -23,8 +23,8 @@
 
 // Version 0.57
 
-self.addEventListener('install', function(e) {
-	e.waitUntil(
+self.addEventListener('install', function(event) {
+	event.waitUntil(
 		caches.open('inboxattack').then(function(cache) {
 			return cache.addAll([
 				'/inbox-attack/',
@@ -45,8 +45,6 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-	console.log(event.request.url);
-
 	event.respondWith(
 		caches.match(event.request).then(function(response) {
 			return response || fetch(event.request);
