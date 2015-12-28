@@ -11,7 +11,8 @@
 			/* LCD font by Samuel Reynolds */
 			/* License: http://www.spinwardstars.com/scrfonts/aaastdlicense.html */
 			font-family: 'LCD';
-			src: url('lcd.woff') format('woff');
+			src: url('lcd.woff2') format('woff2'),
+			     url('lcd.woff') format('woff');
 		}
 		#txt_time, #txt_score, #txt_result {
 			font-family: 'LCD', monospace;
