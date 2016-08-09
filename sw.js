@@ -31,7 +31,6 @@ self.addEventListener('install', function(event) {
 				'/inbox-attack/index.html',
 				'/inbox-attack/index.html?home=true',
 				'/inbox-attack/?home=true',
-				'/inbox-attack/screen.css',
 				'/inbox-attack/index.svg'
 			]).then(function() {
 				return self.skipWaiting();
